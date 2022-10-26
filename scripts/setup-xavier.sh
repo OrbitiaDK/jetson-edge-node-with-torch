@@ -21,6 +21,8 @@ ${PIP_INSTALL} -U numpy pandas
 ${PIP_INSTALL} -U "matplotlib==3.3.4"
 ${PIP_INSTALL} -U scipy sklearn scikit-image
 
+sudo apt-get install cuda-toolkit-10-2
+
 # install dependencies from source and PyTorch from wheel provided by NVIDIA
 ${PIP_INSTALL} -U future psutil dataclasses typing-extensions pyyaml tqdm seaborn
 wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl 
