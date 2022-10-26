@@ -23,7 +23,7 @@ Reboot and then we'll set up the environment.
 We will install several libraries and dependencies to get PyTorch to run.
 You can shortcut the entire procedure by downloading and running the following script that we've prepared: [setup-xavier.sh](https://github.com/cognitivexr/edge-node/blob/main/scripts/setup-xavier.sh) or run:
 
-	curl https://raw.githubusercontent.com/cognitivexr/edge-node/main/scripts/setup-xavier.sh | bash
+	curl https://raw.githubusercontent.com/OrbitiaDK/jetson-edge-node-with-torch/main/scripts/setup-xavier.sh | bash
 
 Here is the entire process step by step
 
