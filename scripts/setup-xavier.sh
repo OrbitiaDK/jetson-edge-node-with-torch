@@ -20,6 +20,8 @@ ${PIP_INSTALL} -U protobuf
 ${PIP_INSTALL} -U numpy==1.19.4 pandas 
 ${PIP_INSTALL} -U "matplotlib==3.3.4"
 ${PIP_INSTALL} -U scipy sklearn scikit-image
+${PIP_INSTALL} -U opencv-python
+${PIP_INSTALL} -U IPython
 
 sudo apt-get install cuda-toolkit-10-2 libcudnn8
 
