@@ -21,7 +21,7 @@ ${PIP_INSTALL} -U numpy pandas
 ${PIP_INSTALL} -U "matplotlib==3.3.4"
 ${PIP_INSTALL} -U scipy sklearn scikit-image
 
-sudo apt-get install cuda-toolkit-10-2 libcudnn8 libcudnn8-dev
+sudo apt-get install cuda-toolkit-10-2 libcudnn8
 
 # install dependencies from source and PyTorch from wheel provided by NVIDIA
 ${PIP_INSTALL} -U future psutil dataclasses typing-extensions pyyaml tqdm seaborn
