@@ -17,7 +17,7 @@ export OPENBLAS_CORETYPE=ARMV8
 
 ${PIP_INSTALL} -U Cython
 ${PIP_INSTALL} -U protobuf
-${PIP_INSTALL} -U numpy pandas 
+${PIP_INSTALL} -U numpy==1.19.4 pandas 
 ${PIP_INSTALL} -U "matplotlib==3.3.4"
 ${PIP_INSTALL} -U scipy sklearn scikit-image
 
